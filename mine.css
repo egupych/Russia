@@ -290,6 +290,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px 0;
 }
 
 .block2{
@@ -297,6 +298,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px 0;
 }
 
 .block3{
@@ -304,6 +306,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px 0;
 }
 
 .block4{
@@ -311,6 +314,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px 0;
 }
 
 .themes
@@ -319,17 +323,13 @@ nav {
 }
 
 
-.wallpaper_block1, .wallpaper_block2, .wallpaper_block3, .wallpaper_block4 {
-  width: 80vw;
-  padding: 96px 0 64px 0;
-}
 
 
 .paragraph1, .paragraph2, .paragraph3, .paragraph4 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 0px 352px 80px;
+  padding: 0px 352px;
 }
 
   /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -881,6 +881,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 4vw 0;
   }
   
   .block2{
@@ -888,6 +889,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 4vw 0;
   }
   
   .block3{
@@ -895,6 +897,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 4vw 0;
   }
   
   .block4{
@@ -902,6 +905,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 4vw 0;
   }
   
   .themes
@@ -910,16 +914,12 @@ footer {
   }
   
   
-  .wallpaper_block1, .wallpaper_block2, .wallpaper_block3 ,.wallpaper_block4  {
-    width: 100vw;
-    padding: 6vw 0 4vw 0;
-  }
   
   .paragraph1, .paragraph2, .paragraph3, .paragraph4 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 0vw 22vw 5vw;
+    padding: 0vw 22vw;
   }
 
 
@@ -1292,7 +1292,7 @@ nav {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 0vw 8vw 7vw;
+  padding: 0vw 8vw;
 }
 
 
