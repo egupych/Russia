@@ -111,10 +111,6 @@ color: red;
   color: #072239;
 }
 
-.wallpaper_center {
-  padding-left: 200px;
-  padding-right: 200px;
-}
 
 .back_button {
   position: absolute;
@@ -749,10 +745,6 @@ footer {
     color: #072239;
   }
   
-  .wallpaper_center {
-    padding-left: 3vw;
-    padding-right: 3vw;
-  }
 
 
   .back_button {
