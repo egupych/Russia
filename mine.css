@@ -404,7 +404,7 @@ nav {
 
 video {
   width: 1120px;
-  border-radius: 32px;
+  border-radius: 40px;
 }
 
 
@@ -633,7 +633,7 @@ footer {
   text-align: center;
   width: 784px;
   cursor: grab;
-  border-radius: 32px;
+  border-radius: 40px;
 }
 
 
@@ -996,7 +996,7 @@ footer {
   
   video {
     width: 70vw;
-    border-radius: 2vw;
+    border-radius: 2.5vw;
   }
   
   
@@ -1196,7 +1196,7 @@ footer {
     text-align: center;
     width: 49vw;
     cursor: grab;
-    border-radius: 2vw;
+    border-radius: 2.5vw;
   }
   
   
