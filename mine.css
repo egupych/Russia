@@ -383,7 +383,7 @@ nav {
 .videobox {
   display: flex;
   justify-content: center;
-  padding: 56px 0 80px 0;
+  padding: 100px 0 100px 0;
   background-color: #E6E6E6;
   flex-direction: column;
   align-items: center;
@@ -392,7 +392,7 @@ nav {
 .videobox_header {
   font-family: 'Montserrat', serif;
   font-size: 40px;
-  padding: 0vw 0 1vw 0;
+  padding: 1vw 0 1vw 0;
 }
 
 
@@ -975,7 +975,7 @@ footer {
   .videobox {
     display: flex;
     justify-content: center;
-    padding: 3.5vw 0 5vw 0;
+    padding: 7vw 0 7vw 0;
     background-color: #E6E6E6;
     flex-direction: column;
     align-items: center;
@@ -1314,7 +1314,7 @@ font-size: 2.9vw;
 .videobox {
   display: flex;
   justify-content: center;
-  padding: 7vw 0 7vw 0;
+  padding: 11vw 0 11vw 0;
   background-color: #E6E6E6;
 }
 
