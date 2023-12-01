@@ -1,6 +1,8 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -53,7 +55,7 @@ body {
   -webkit-text-size-adjust: 100%;
   overflow-x:hidden;
   background: #F7F7F7;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', serif;
 	font-size: 24px;
   /*user-select: none;  Не даёт взаимодействовать с текстом */
 }
@@ -115,7 +117,7 @@ color: red;
 .back_button {
   position: absolute;
   top: 56px;
-  left: 40px;
+  left: 14px;
   transition: all 0.2s ease;
 }
 
@@ -163,10 +165,11 @@ nav {
 }
 
 .logo {
-	font-family: "Roboto Slab", serif;
-	font-size: 37px;
+	font-family: "Montserrat", serif;
+	font-size: 31px;
 	margin-left: 96px;
 	cursor: pointer;
+  font-weight: 800;
 
   margin-left: 240px;
 }
@@ -184,6 +187,7 @@ nav {
 	position: relative;
 	overflow: hidden;
   padding: 3.2px 0;
+  
 }
 
 
@@ -260,8 +264,8 @@ nav {
 
 
 .paragraph_description {
-  font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
   line-height: 140%;
   margin-bottom: 16px;
   transform: translate(48px, 0vw);
@@ -381,15 +385,15 @@ nav {
 }
 
 .videobox_header {
-  font-family: 'Roboto Slab', serif;
-  font-size: 48px;
+  font-family: 'Montserrat', serif;
+  font-size: 40px;
   padding: 0vw 0 1vw 0;
 }
 
 
 .videobox_title {
-  font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
   padding-bottom: 48px;
 }
 
@@ -456,9 +460,9 @@ flex-grow: 0;
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 .logo2 {
-  font-size: 32px;
-
-  color: #072239;
+  font-size: 27px;
+  font-weight: 800;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -484,6 +488,9 @@ flex-grow: 0;
 
 .logo_social {
   cursor: pointer;
+  color: #ffffff;
+  font-weight: 800;
+
 }
 
 .logo_footer_vk {
@@ -530,6 +537,7 @@ flex-grow: 0;
 .authors {
   line-height: 140%;
   position: relative;
+  color: #ffffff;
 }
 
 .advertising {
@@ -543,6 +551,7 @@ flex-grow: 0;
 
 .authors span {
   line-height: 140%;
+  color: #ffffff;
 }
 
 
@@ -551,7 +560,7 @@ flex-grow: 0;
   justify-content: space-between;
   width: 90%;
   align-items: center;
-  font-size: 19px;
+  font-size: 16px;
   margin-top: 48px;
   margin-bottom: 64px;
 }
@@ -564,7 +573,7 @@ flex-grow: 0;
 footer {
   display: flex;
   justify-content: center;
-  background-color: #E6E6E6;
+  background-color: #CE1531;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -580,12 +589,12 @@ footer {
 
 
 ::-webkit-scrollbar-thumb {
-  background-color: #072239; /* Цвет полосы прокрутки при наведении */
+  background-color: #CE1531; /* Цвет полосы прокрутки при наведении */
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #072239; /* Цвет полосы прокрутки при наведении */
+  background-color: #CE1531; /* Цвет полосы прокрутки при наведении */
 }
 
 
@@ -643,8 +652,8 @@ footer {
     -webkit-text-size-adjust: 100%;
     overflow-x:hidden;
     background: #F7F7F7;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.5vw;
+    font-family: 'Montserrat', serif;
+    font-size: 1.25vw;
     /*user-select: none;  Не даёт взаимодействовать с текстом */
   }
   
@@ -690,11 +699,7 @@ footer {
   h6 {
   font-size: inherit;
   }
-  
-  .bigred {
-  font-size: 20px;
-  color: red;
-  }
+
   
     
   * {
@@ -706,7 +711,7 @@ footer {
   .back_button {
     position: absolute;
     top: 3.5vw;
-    left: 2.5vw;
+    left: 1.6vw;
     transition: all 0.2s ease;
   }
   
@@ -740,7 +745,7 @@ footer {
   /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
   
   nav {
-    font-size: 1.4vw;
+    font-size: 1.16vw;
     height: 5vw;
     width: 100%;
     /* background-color: rgb(243, 243, 243); */
@@ -755,8 +760,8 @@ footer {
   }
   
   .logo {
-    font-family: "Roboto Slab", serif;
-    font-size: 2.3vw;
+    font-family: "Montserrat", serif;
+    font-size: 1.91vw;
     margin-left: 6vw;
     cursor: pointer;
   
@@ -851,8 +856,8 @@ footer {
 
   
   .paragraph_description {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.5vw;
+    font-family: 'Montserrat', serif;
+    font-size: 1.25vw;
     line-height: 140%;
     margin-bottom: 1vw;
     transform: translate(3vw, 0vw);
@@ -973,14 +978,14 @@ footer {
   }
   
   .videobox_header {
-    font-family: 'Roboto Slab', serif;
-    font-size: 3vw;
+    font-family: 'Montserrat', serif;
+    font-size: 2.5vw;
     padding: 0vw 0 1vw 0;
   }
   
   
   .videobox_title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', serif;
     font-size: 1.5vw;
     padding-bottom: 3vw;
   }
@@ -1033,7 +1038,7 @@ footer {
   }
   
   .egup_button_text {
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   
   color: #FFFFFF;
   text-decoration: none;
@@ -1048,10 +1053,8 @@ footer {
   /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
   
   .logo2 {
-    font-size: 2vw;
-  
-    color: #072239;
-    cursor: pointer;
+    font-size: 1.7vw;
+      cursor: pointer;
   }
   
   
@@ -1143,7 +1146,7 @@ footer {
     justify-content: space-between;
     width: 90%;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
     margin-top: 3vw;
     margin-bottom: 4vw;
   }
@@ -1156,30 +1159,8 @@ footer {
   footer {
     display: flex;
     justify-content: center;
-    background-color: #E6E6E6;
+    background-color: #CE1531;
   }
-  
-  /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
-  /* Скроллбар                                        */
-  /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
-  
-  
-  ::-webkit-scrollbar {
-    width: 0.5vw; /* Ширина скроллбара */
-    background-color: transparent; 
-    transition: all 0.3s ease;
-  }
-  
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #072239; /* Цвет полосы прокрутки при наведении */
-  }
-  
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #072239; /* Цвет полосы прокрутки при наведении */
-  }
-  
   
   
   
@@ -1233,7 +1214,7 @@ footer {
 .back_button {
   position: absolute;
   top: 4.5vw;
-  left: 4.5vw;
+  left: 1.9vw;
   display: none;
 }
 
@@ -1248,12 +1229,12 @@ footer {
 }
 
 .egup_button_text {
-  font-size: 3.1vw;
+  font-size: 2.6vw;
 }
 
 .logo {
-	font-family: "Roboto Slab", serif;
-	font-size: 4vw;
+	font-family: "Montserrat", serif;
+	font-size: 3.3vw;
 	margin-left: 6vw;
 	cursor: pointer;
 
@@ -1262,7 +1243,7 @@ footer {
 
 
 nav {
-	font-size: 4vw;
+	font-size: 3.3vw;
   padding: 5vw 0;
   display: none;
 }
@@ -1302,8 +1283,8 @@ nav {
 }
 
 .paragraph_description {
-  font-family: 'Roboto Slab', serif;
-  font-size: 3.5vw;
+  font-family: 'Montserrat', serif;
+  font-size: 2.9vw;
   line-height: 140%;
   margin-bottom: 3vw;
   transform: translate(10vw, 0vw);
@@ -1321,7 +1302,7 @@ nav {
 }
 
 .egup_button_text {
-font-size: 3.5vw;
+font-size: 2.9vw;
 }
 
 
@@ -1334,7 +1315,7 @@ font-size: 3.5vw;
 }
 
 .videobox_title {
-  font-size: 3.5vw;
+  font-size: 2.9vw;
 }
 
 
@@ -1344,7 +1325,7 @@ video {
 }
 
 .videobox_header {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 
@@ -1400,7 +1381,7 @@ video {
 .footer {
   width: 90%;
   align-items: flex-start;
-  font-size: 2.9vw;
+  font-size: 2.4vw;
   flex-direction: column;
   margin-top: 6vw;
   margin-bottom: 7vw;
@@ -1411,7 +1392,7 @@ video {
 
 
 .logo2 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 
@@ -1420,7 +1401,7 @@ video {
 }
 
 .logos_footer {
-  font-size: 1vw;
+  font-size: 0.8vw;
   gap: 4vw;
   flex-direction: row;
   margin-left: 4vw;

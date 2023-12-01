@@ -99,21 +99,6 @@ function setScrollIntoView1Options(top) {
 }
 
 
-
-function setScrollIntoView2(top) {
-	const lesson = document.querySelector('.lesson');
-	lesson.scrollIntoView(top);
-}
-
-function setScrollIntoView2Options(top) {
-	const lesson = document.querySelector('.lesson');
-	lesson.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
-
 function setScrollIntoView3(top) {
 	const boxprice = document.querySelector('.boxprice');
 	boxprice.scrollIntoView(top);
